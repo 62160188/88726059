@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <p>โปรแกรมสูตรคูณ - multi.html</p>
+    <script>
+        function multi(a) {
+            div = document.getElementById('disp')
+            div.innerHTML = ''
+            table = ``
+
+            for (i = 1; i <= 12; i++) {
+                table += `<tr>
+                            <td>${a} x ${i} = </td>
+                            <td>${a*i}</td>
+                        </tr>`
+                
+        }
+        div.innerHTML = table
+    }
+    
+    </script>
+    </head>
+    <body>
+        <input type="text" placeholder="สูตรคูณแม่ X" onkeyup="multi(this.value);">
+        <table border="1">
+        <tbody id="disp">
+    
+        </tbody>
+        </table>
+    </body>
+    
+</html>
