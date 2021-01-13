@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Font';
+  src:url('bangna-new.ttf') format('opentype');
+
+}
+.a1 {
+    margin: auto;
+    width: 30%;
+    border: 2px solid white;
+    background:rgb(0, 0, 0);
+    padding: 10px;
+    font-family: "Font", monospace;
+    font-size:18px;
+    color: #fff;
+}
+
+
+#b1 {
+   margin: auto;
+    width: 40%;
+}
+html { 
+    background: url(wp2646828-dj-party-wallpaper.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.button  {
+  background-color: #00ff00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover {background-color: #00cc00}
+
+.button:active {
+  background-color: #00b300;
+  transform: translateY(4px);
+}
+
+.button1 {
+  background-color: #00ff00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1:hover {background-color: #00cc00}
+
+.button1:active {
+  background-color: #00b300;
+  transform: translateY(4px);
+}
+.button3 {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button3:hover {background-color: #cc0000}
+
+.button3:active {
+  background-color: #b30000;
+  transform: translateY(4px);
+}
